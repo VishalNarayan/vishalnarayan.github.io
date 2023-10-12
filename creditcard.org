@@ -1,0 +1,167 @@
+:PROPERTIES:
+:ID:       D8D0539C-672B-4B27-B63B-3DBC3B37846A
+:END:
+#+title: creditcard
+
+What I want out of the credit card I apply to.
+
+
+* Goals and Priorities
+Do I want to earn cashback, travel rewards, or points?
+- I don't care as much about cashback. I want to accumulate a lot of points, and travel rewards would
+  be nice as well.
+- As I spend the most on food, I would like a strong bang-for-buck on food expenditures.
+- However, since I also spend a fair amount on travel, I would like to reap some travel rewards as well. 
+
+
+I am not considering the credit card's APR, since I will pay the balance in full every month.
+
+The annual fee does not matter much to me, as long as I can make up the fee I pay with whatever
+rewards and credits I'm offered. I want to be able to make up for the annual fee with my natural
+spending habits.
+
+* My spending categories
+
+I spend the most on food.
+In the last 4 months of 2022, I spent about $1168 on flights.
+I spent close to $2280 on dining and groceries in the same timespan.
+
+
+
+* Researching credit cards
+
+These are the cards I'm currently looking at and considering:
+
+** Chase Sapphire Reserve
+This is a travel type card.
+CUR = Chase Ultimate Rewards
+
+*** Annual fee:
+$550
+*** Starting bonus
+Earn 60k bonus points after spending $4,000 in first 3 months
+(60k is roughly $900 toward travel when redeeming through Chase Ultimate Rewards)
+*** Credits
+$300 Annual travel credit
+$10 monthly gopuff statement credit
+*** Points multiplier
+5x on flights when purchasing travel through CUR after first $300 is spent 
+10x on hotels and car rentals when purchasing travel through CUR after first $300 is spent
+3x on other travel worldwide after first $300 is spent
+
+10x on Chase Dining purchases with Ultimate Rewards. ???
+3x on other dining at restaurants, including eligible delivery services, takeout, and dining out
+10x points on Lyft purchases
+
+1 point per dollar spent on all other purchases. 
+*** Points value
+When redeeming for cash, each point is worth 1 cent.
+100 points = $1
+When redeeming for travel booked through CUR, each point worth 1.5 cents.
+100 points = $1.50
+
+*** Perks
+Complimentary Airport Lounge Access after a one-time enrollment in Priority Pass select
+Global Entry / TSA Precheck / NEXUS fee credit
+Points are worth 50% more
+2 year complimentary Lyft Pink all access membership
+complimentary dashpass from DoorDash
+$5 monthly DoorDash credits through 12/31/2024
+complimentary Instacart+ membership for 12 months
+statement credit on Instacart purchases, up to $15/monthp
+
+** Amex Gold
+
+*** Annual fee
+$250
+
+*** Starting bonus
+special offer: earn 90k points after spending $4000 on purchases in first 6 months
+Now it's only 75k so wtf 
+
+*** Credits
+$120 dining credit
+ - Grubhub, cheesecake factory, Gold Belly, wine.com, milk, ShakeShack
+ - I'd have to spend at least $10 at one of these places per month in order to make it back
+
+
+$120 uber cash to dine or ride
+ - I think we just get $10 in uber cash each month
+
+*** Points multiplier
+4x at restaurants worldwide, plus takeout and delivery in US
+4x on groceries at US supermarkets on up to $25k in purchases
+3x on flights booked directly with airlines or on amextravel.com
+1x on other eligible purchases
+
+
+
+** Chase Sapphire Preferred
+points don't expire 
+*** Annual fee: $95
+*** Starting bonus
+earn 60k after spending $4000 in first 3 months
+(roughly $750 toward travel when redeeming through CUR)
+10% anniversary points bonus
+*** Credits
+up to $50 in statement credits each year for hotel stays purchased through CUR
+$10 monthly go puff statement credit 
+
+*** Points multiplier
+5x on travel purchased through CUR, excluding the $50 hotel purchases
+2x on other travel purchases
+3x on dining, eligible delivery services, takeout, dining out.
+3x on online grocery purchases (excluding Target, Walmart, and wholesale clubs)
+3x on select streaming services
+1 point per dollar spent on all other purchases.
+
+5x points on qualifying Lyft rides through 03/2025.
+
+*** Points value
+When redeeming for cash, each point is worth 1 cent.
+100 points = $1
+When redeeming for travel booked through CUR, each point worth 1.25 cents.
+100 points = $1.25
+
+
+*** Perks
+just additional value of 25% more value
+Complimentary Instacart+ Membership for 6 months
+Complimentary DashPass from Doordash for 12 months
+* The big table
+
+
+|                   | Chase Sapphire Reserve                           | Chase Sapphire Preferred                    | Amex Gold                                                          |
+| Annual Fee        | $550                                             | $95                                         | $250                                                               |
+| Starting bonus    | 60k pts (spend 4k in 3mo)                        | 60k pts (spend 4k in 3mo)                   | 75k pts (spend 4k in 6mo)                                          |
+|-------------------+--------------------------------------------------+---------------------------------------------+--------------------------------------------------------------------|
+| Credits           | $300 annual travel credit                        | Up to $50 for hotel purchased through CUR   | $120 dining credit                                                 |
+|                   | $10 monthly gopuff statement credit              | $10 monthly go puff statement credit        | Grubhub, cheesecake factory, GoldBelly, wine.com, Milk, ShakeShack |
+|                   |                                                  |                                             | $120 uber cash, $10 credited to account each month                 |
+|-------------------+--------------------------------------------------+---------------------------------------------+--------------------------------------------------------------------|
+| Points Multiplier | 10x on hotels/car rentals through CUR after $300 | 5x on travel purchased through CUR          | 4x at restaurants worldwide, plus takeout/delivery in US           |
+|                   | 5x on flights through CUR after $300             | 5x on Lyft rides through 03/2025            | 4x on groceries at US supermarkets, up to $25k annual purchases    |
+|                   | 3x on all travel after $300                      | 3x on select streaming services             | 3x on flights booked directly with airlines or on amextravel.com   |
+|                   |                                                  | 3x on online grocery purchases              | 1x on other eligible purchases                                     |
+|                   | 10x on Dining with CUR                           | (excludes Target, Walmart, wholesale clubs) |                                                                    |
+|                   | 10x on Lyft purchases                            | 3x on dining, delivery, takeout             |                                                                    |
+|                   | 3x on dining at restaurants                      | 2x on other travel purchases                |                                                                    |
+|                   |                                                  | 1x on all other purchases                   |                                                                    |
+|-------------------+--------------------------------------------------+---------------------------------------------+--------------------------------------------------------------------|
+| Points value      | Cash 1 cent. 100 pts = $1                        | Cash 1 cent. 100 pts = $1                   |                                                                    |
+|                   | Travel through CUR 1.5 cents. 100 = $1.25        | Travel through CUR 1.25 cents. 100 = $1.25  |                                                                    |
+|-------------------+--------------------------------------------------+---------------------------------------------+--------------------------------------------------------------------|
+| Perks             | Complimentary Instacart+ 12 mo                   | Complimentary Instacart+ 6 mo               |                                                                    |
+|                   | Complimentary DashPass 12 mo                     | Complimentary DashPass 12 mo                |                                                                    |
+|                   | $5 monthly DoorDash credits through 2024         |                                             |                                                                    |
+|                   | 2-year Lyft Pink All Access Membership           |                                             |                                                                    |
+|                   |                                                  |                                             |                                                                    |
+
+
+5x on flights when purchasing travel through CUR after first $300 is spent 
+10x on hotels and car rentals when purchasing travel through CUR after first $300 is spent
+3x on other travel worldwide after first $300 is spent
+
+10x on Chase Dining purchases with Ultimate Rewards. ???
+3x on other dining at restaurants, including eligible delivery services, takeout, and dining out
+10x points on Lyft purchases
