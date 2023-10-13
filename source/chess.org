@@ -30,6 +30,20 @@ This is where the chess stuff will be.
 | 0-0  |      | and here, white is fine. |
 |      |      |                          |
 
+Alternatively,
+4.. exd4
+5. [@5] Nxd4 Nxd4 is a mistake.
+6. Qxd4
+
+
+Once the queen enters the center white has a lot of control.
+Here, d6 is necessary to stop e5.
+
+Lots of people play c5 trying to attack the queen, but Qa4 prevents d6 and prepares e5.
+Can put the light squared bishop on c4 (e4 pawn is defended well enough).
+If no squares are appealing, can even fianchetto the bishop.
+
+
 ** 1. e4 c5
 
 
