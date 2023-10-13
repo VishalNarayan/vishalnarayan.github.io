@@ -1,2 +1,42 @@
 
 This is where the chess stuff will be. 
+
+
+
+* Opening Lines
+
+** 1. e4 e5
+
+*** Scotch
+
+| e4   | e5   |                                                                                                                                             |
+| Nf3  | Nc6  |                                                                                                                                             |
+| d4   | exd4 |                                                                                                                                             |
+| Nxd4 |      | Here, black can continue with Nf6 or Bc5.                                                                                                   |
+|      | Bc5  | White can continue with Be3, Nb3, or Nxc6                                                                                                   |
+| Be3  | Qf6  | Here, Qf6 is a good system, with Ne7 following. Another move is Bb6. At this point if Nxc6, then Bxe3 threatens mate and is good for black. |
+|      |      |                                                                                                                                             |
+
+
+*** Four Knights Scotch
+| e4   | e5   |                          |
+| Nf3  | Nc6  |                          |
+| Nc3  | Nf6  |                          |
+| d4   | Bb4  |                          |
+| Nxe5 | Nxe4 |                          |
+| Qf3  | Nf6  |                          |
+| Be3  | 0-0  |                          |
+| Bd3  | Re8  |                          |
+| 0-0  |      | and here, white is fine. |
+|      |      |                          |
+
+** 1. e4 c5
+
+
+
+
+** 1. d4
+
+
+
+* Important Games

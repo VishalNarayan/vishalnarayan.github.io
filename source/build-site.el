@@ -6,7 +6,7 @@
       (list
        (list "website"
 	     :recursive t
-	     :base-directory "~/Documents/website"
+	     :base-directory "~/Documents/vishalnarayan.github.io/source"
 	     :publishing-directory "~/Documents/vishalnarayan.github.io/docs"
 	     :publishing-function 'org-html-publish-to-html
 	     :exclude "*~")))
