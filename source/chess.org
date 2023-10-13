@@ -79,6 +79,39 @@ Here, Bd3 Nf4 is annoying, so Qd2 instead.
 
 
 ** 1. d4
+♔
+♞
+
+After 1. d4 d5 2. c4, there are a number of lines. Here are a few:
+- Semi-Slav Defense (e6 with eventual c6)
+- Slav Defense (c6)
+- Albin Countergambit (e5)
+- Chigorin Defense (Nc6)
+- Baltic Defense (Bf5)
+- Symmetrical/Austrian Defense (c5)
+- Marshall Defense (Nf6)
+
+*** Queen's Gambit Declined
+From wikipedia: White will try to exploit the passivity of Black's light-squared bishop, and Black
+will try to release it, trade it, or prove that, while passive, the bishop has a useful defensive
+role.
+
+Black will usually not take dxc4 as that surrenders the control of the center. However, he might do
+so if he can extract a tempo (eg. if White has already played Bd3). 
+
+1. d4 d5
+2. c4 e6
+
+
+Mainline:
+3. [@3] Nc3 Nf6
+4. Bg5 Be7
+5. Nf3 h6
+6. Bxf6 Bxf6
+7. e3
+   
+
+
 
 
 
