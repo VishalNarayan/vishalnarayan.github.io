@@ -19,6 +19,8 @@ This is where the chess stuff will be.
 
 
 *** Four Knights Scotch
+
+Line 1:
 | e4   | e5   |                          |
 | Nf3  | Nc6  |                          |
 | Nc3  | Nf6  |                          |
@@ -42,6 +44,33 @@ Here, d6 is necessary to stop e5.
 Lots of people play c5 trying to attack the queen, but Qa4 prevents d6 and prepares e5.
 Can put the light squared bishop on c4 (e4 pawn is defended well enough).
 If no squares are appealing, can even fianchetto the bishop.
+
+
+**** Line 2:
+1. e4 e5
+2. Nf3 Nc6
+3. Nc3 Bc5?!
+4. Nxe5 Bxf2
+
+
+Bxf2 is a classic mistake. Black has given up lots of tempi AND the dark square bishop.
+
+5. [@5] Kxf2 Nxe5
+6. d4 Qf6+
+7. Kg1 Ng6
+
+
+At this point, white can go with the quiet Be3 and Qd2. White can also go with e5. Nd5 is not great
+because it sends the queen back to d8 and invites c6.
+
+8. [@8] Be3 Ne7
+Here, Bd3 Nf4 is annoying, so Qd2 instead.
+
+9. [@9] Qd2 0-0
+10. Bc4 d6 loses a queen.
+11. Bg5!
+
+
 
 
 ** 1. e4 c5
