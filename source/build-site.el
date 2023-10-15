@@ -9,6 +9,7 @@
 	     :base-directory "~/Documents/vishalnarayan.github.io/source"
 	     :publishing-directory "~/Documents/vishalnarayan.github.io/docs"
 	     :publishing-function 'org-html-publish-to-html
+	     :section-numbers nil
 	     :exclude "*~")))
 
 ;; Generate the site output
