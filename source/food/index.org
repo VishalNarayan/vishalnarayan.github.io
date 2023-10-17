@@ -4,8 +4,8 @@ Welcome to my food channel!
 
 Here are some recipes that I enjoy.
 
-[[./food/chicken-shawarma.org][Chicken Shawarma]]
+[[./chicken-shawarma.org][Chicken Shawarma]]
 
-[[./food/malai-rigatoni.org][Malai Rigatoni]]
+[[./malai-rigatoni.org][Malai Rigatoni]]
 
-[[./food/chicken-chettinad.org][Chicken Chettinad]]
+[[./chicken-chettinad.org][Chicken Chettinad]]
