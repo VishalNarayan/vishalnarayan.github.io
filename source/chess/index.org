@@ -1,7 +1,8 @@
+Welcome to the chess index.
 
-This is where the chess stuff will be. 
+Here, I will have links to opening theory, concepts, educational games, and more.
 
-
+For now, putting everything here.
 
 * Opening Lines
 
@@ -262,3 +263,4 @@ Notice that the king is out of squares.
 
 
 * Important Games
+
