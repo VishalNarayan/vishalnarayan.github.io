@@ -9,3 +9,6 @@ Here are some recipes that I enjoy.
 [[./malai-rigatoni.org][Malai Rigatoni]]
 
 [[./chicken-chettinad.org][Chicken Chettinad]]
+
+[[./rasam.org][Rasam]]
+
