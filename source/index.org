@@ -4,3 +4,5 @@ Hallo warld!
 Here's a link to [[./chess.org][chess]].
 
 Here's a link to [[./food][food]]. 
+
+Putting a image [[./mrbean.png][here]].
