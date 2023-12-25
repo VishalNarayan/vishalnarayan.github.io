@@ -1,0 +1,272 @@
+---
+title: "Dummypage"
+date: 2023-12-24T23:47:37-08:00
+draft: false
+---
+
+Welcome to the chess index.
+
+Here, I will have links to opening theory, concepts, educational games, and more.
+
+For now, putting everything here.
+
+* Opening Lines
+
+** 1. e4 e5
+
+*** Scotch
+
+| e4   | e5   |                                                                                                                                             |
+| Nf3  | Nc6  |                                                                                                                                             |
+| d4   | exd4 |                                                                                                                                             |
+| Nxd4 |      | Here, black can continue with Nf6 or Bc5.                                                                                                   |
+|      | Bc5  | White can continue with Be3, Nb3, or Nxc6                                                                                                   |
+| Be3  | Qf6  | Here, Qf6 is a good system, with Ne7 following. Another move is Bb6. At this point if Nxc6, then Bxe3 threatens mate and is good for black. |
+|      |      |                                                                                                                                             |
+
+
+*** Four Knights Scotch
+
+Line 1:
+| e4   | e5   |                          |
+| Nf3  | Nc6  |                          |
+| Nc3  | Nf6  |                          |
+| d4   | Bb4  |                          |
+| Nxe5 | Nxe4 |                          |
+| Qf3  | Nf6  |                          |
+| Be3  | 0-0  |                          |
+| Bd3  | Re8  |                          |
+| 0-0  |      | and here, white is fine. |
+|      |      |                          |
+
+Alternatively,
+4.. exd4
+5. [@5] Nxd4 Nxd4 is a mistake.
+6. Qxd4
+
+
+Once the queen enters the center white has a lot of control.
+Here, d6 is necessary to stop e5.
+
+Lots of people play c5 trying to attack the queen, but Qa4 prevents d6 and prepares e5.
+Can put the light squared bishop on c4 (e4 pawn is defended well enough).
+If no squares are appealing, can even fianchetto the bishop.
+
+
+**** Line 2:
+1. e4 e5
+2. Nf3 Nc6
+3. Nc3 Bc5?!
+4. Nxe5 Bxf2
+
+
+Bxf2 is a classic mistake. Black has given up lots of tempi AND the dark square bishop.
+
+5. [@5] Kxf2 Nxe5
+6. d4 Qf6+
+7. Kg1 Ng6
+
+
+At this point, white can go with the quiet Be3 and Qd2. White can also go with e5. Nd5 is not great
+because it sends the queen back to d8 and invites c6.
+
+8. [@8] Be3 Ne7
+Here, Bd3 Nf4 is annoying, so Qd2 instead.
+
+9. [@9] Qd2 0-0
+10. Bc4 d6 loses a queen.
+11. Bg5!
+
+
+
+
+** 1. e4 c5
+
+
+
+
+** 1. d4
+♔
+♞
+
+After 1. d4 d5 2. c4, there are a number of lines. Here are a few:
+- Semi-Slav Defense (e6 with eventual c6)
+- Slav Defense (c6)
+- Albin Countergambit (e5)
+- Chigorin Defense (Nc6)
+- Baltic Defense (Bf5)
+- Symmetrical/Austrian Defense (c5)
+- Marshall Defense (Nf6)
+
+*** Queen's Gambit Declined
+From wikipedia: White will try to exploit the passivity of Black's light-squared bishop, and Black
+will try to release it, trade it, or prove that, while passive, the bishop has a useful defensive
+role.
+
+Black will usually not take dxc4 as that surrenders the control of the center. However, he might do
+so if he can extract a tempo (eg. if White has already played Bd3).
+
+One of Black's main ideas is to attack and put pressure on d4. 
+
+Queen's Gambit Declined can also be used to meet the English Opening. If c4, then e6. 
+
+1. d4 d5
+2. c4 e6
+
+
+Mainline:
+3. [@3] Nc3 Nf6
+4. Bg5 Be7
+5. Nf3 h6
+6. Bxf6 Bxf6
+7. e3
+
+
+A little move order trick:
+1. d4 d5
+2. c4 e6
+3. Nc3 Be7
+This prevents Bg5.
+
+A Danya game continued from here:
+4. [@4] cxd5 exd5
+5. Nf3 c6
+6. Bf4 Bd6
+This c6, Bd6 combo seems like it wastes tempi, but it's a fairly good system for Black because the center is strong.
+7. [@7] Bxd6 Qxd6
+8. e3 Bf5
+9. Be2 Nd7
+This is a subtlety. Playing Nd7 before Nf6 prevents White from playing Ne5 which can be annoying.
+10. [@10] 0-0 Nf6
+11. h3 0-0
+One idea here for white is a minority attack. First, Nh4 to kick Black's dark square bishop, then
+Rb1 to push the pawns.
+12. [@12] Qd2 Rfe8
+13. Rfe1 Ne4
+14. Nxe4 dxe4
+15. Nh2 Nf6
+Ideas for Black here include: Positional approach with Nf6-d5. Aggressive with Qg6. Rook lift Re6.
+16. [@16] Rec1 Nd5
+17. a3 a5
+18. Rc2 Re6
+Could've played a4 here, permanently stopping b4. But there's no need, since the Rook on a1 is now
+hanging. That's why, Danya proceeded with the rook lift instead. Cus he had the time to do so. 
+19. [@19] Bg4 Bxg4
+20. Nxg4 f6
+f5 here allows Ne5 which is a permanent outpost. In order to push the knight away, we need to do it very carefully.
+21. [@21] Nh2 f5
+22. Nf1 a4
+The idea here is that we want to go Rf8 and push f4, but that would leave a-pawn undefended. So,
+taking the clinical approach.
+23. [@23] Rac1 Rf8
+24. Nh2 h5
+25. Rf1 f4
+26. exf4 Nxf4
+27. Rc3 Rg6
+28. Rg3 Rxg3
+29. fxg3 Qxd4
+30. Qxd4 Ne2+
+31. Kh1 Nxg3+
+32. Kg1 Ne2+
+33. Kh1 Rxf1+
+34. Nxf1 Nxd4
+Now, up 2 pawns in a winning Knight endgame. All we gotta do is bring King to the center of the board.
+35. [@35] Ne3 Kf7
+36. Kg1 Ke6
+37. Kf2 b5
+38. g4 h4
+39. Ke1 Ke5
+40. Kd2 Nf3+
+41. Kc3 Ng1
+Important. Here, it's Ng1 instead of Ng5 because after Nf5, we can play g5 supporting our h pawn.    
+42. [@42] Nf5 g5
+43. Kb4 Nh3
+44. Kc5 Nf2
+45. Kxc6 h3
+46. Kxb5 h2
+47. Ng3 Kf4 and game is won. 
+
+Common Trap:
+1. d4 d5
+2. c4 e6
+3. Nc3 Nf6
+4. Bg5 Nbd7
+5. cxd5 exd5
+6. Nxd5 Nxd5!
+7. Bxd8 Bb4+
+8. Qd2, and Black is up a piece. 
+
+Orhodox Variation:
+1. d4 d5
+2. c4 e6
+3. Nc3 Nf6
+4. Bg5 Be7
+5. e3 0-0
+6. Nf3 Nbd7
+7. Rc1 c6
+8. Bd3 dxc4
+Remember that Black only takes the pawn once White's light-square bishop has moved, in order to gain that tempo.
+9. [@9] Bxc4 Nd5
+The point of Nd5 here is to offer the trade of dark-square bishops and to simplify with piece trades. 
+10. [@10] Bxe7 Qxe7
+11. 0-0 Nxc3
+More trading! Simplification is best for Black.
+12. [@12] Rxc3 e5
+
+
+Sideline:
+if
+10. [@10] e4 Nxc3
+11. Rxc3 e5
+Here, Black has to contest the center. Better e5 than c5, because this way the diagonal gets opened up for the bishop.
+
+
+One of Danya's [[https://www.youtube.com/watch?v=HAMhInc37gI][speedrun games]] continued:
+13. [@13] dxe5 Nxe5
+14. Nxe5 Qxe5
+Black has essentially equalized, just gotta get bishop out, to neutralize White's bishop. White could go Qb3.     
+15. [@15] Qc2 Be6
+16. Bxe6 Qxe6
+17. Rd1? Qxa2 gets a free pawn.
+18. h3 Qe6
+19. Rd3 Rfe8
+20. Rd7 Re7
+21. Rd6 Qe5
+22. Qb3 Qb5
+23. Rd8 Re8
+24. Qxb5 cxb5
+25. Rd7 Rab8
+26. R1d5 a6
+27. Rc5 Rbc8
+28. Rxc8 Rxc8
+29. Rxb7 g6
+30. Ra7 Rc1
+31. Kh2 Rc2
+32. Kg3 Rxb2
+33. Rxa6 h5
+34. Rb6 b4
+35. Kf3 Rb1
+36. Ke2 b3
+37. Kd2 Rb2+
+38. Kc3?? and the game was lost.
+
+
+Tackling inaccuracies:
+7. [@7] Qc2 c5
+Qc2 is inaccurate. It leaves the d4 pawn unattended. If dxc5, we play d4!
+8. [@8] Rd1 cxd4
+9. Nb5 Bb4+
+10. Bd2 Bc5
+Going to move the bishop back along the diagonal (cus we don't want Nd6+). Might as well make it
+harder to recapture the d4 pawn.
+11. [@11] Nf3 Ne4
+Notice that the king is out of squares.
+12. [@12] b4 d3
+13. exd3 (forced) Bxf2+
+14. Ke2 Nxd2 and the game goes on. Both sides have fair chances. 
+
+
+
+
+* Important Games
+

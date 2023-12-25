@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Vish</title>
+    <link>https://vishalnarayan.github.io/posts/</link>
+    <description>Recent content in Posts on Vish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Dec 2023 23:53:44 -0800</lastBuildDate>
+    <atom:link href="https://vishalnarayan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://vishalnarayan.github.io/posts/test/</link>
+      <pubDate>Sun, 24 Dec 2023 23:53:44 -0800</pubDate>
+      <guid>https://vishalnarayan.github.io/posts/test/</guid>
+      <description>Hi there! This is a test page and will be removed shortly so enjoy it while you can.</description>
+    </item>
+  </channel>
+</rss>

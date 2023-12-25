@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chesses on Vish</title>
+    <link>https://vishalnarayan.github.io/chess/</link>
+    <description>Recent content in Chesses on Vish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Dec 2023 23:47:37 -0800</lastBuildDate>
+    <atom:link href="https://vishalnarayan.github.io/chess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dummypage</title>
+      <link>https://vishalnarayan.github.io/chess/dummypage/</link>
+      <pubDate>Sun, 24 Dec 2023 23:47:37 -0800</pubDate>
+      <guid>https://vishalnarayan.github.io/chess/dummypage/</guid>
+      <description>Welcome to the chess index.
+Here, I will have links to opening theory, concepts, educational games, and more.
+For now, putting everything here.
+Opening Lines 1. e4 e5 Scotch e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Here, black can continue with Nf6 or Bc5. Bc5 White can continue with Be3, Nb3, or Nxc6 Be3 Qf6 Here, Qf6 is a good system, with Ne7 following. Another move is Bb6. At this point if Nxc6, then Bxe3 threatens mate and is good for black.</description>
+    </item>
+  </channel>
+</rss>
