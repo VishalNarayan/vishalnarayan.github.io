@@ -4,7 +4,7 @@ date: 2023-12-24T23:47:37-08:00
 draft: false
 ---
 
-Welcome to the chess index.
+Welcome to the chess index!!!
 
 Here, I will have links to opening theory, concepts, educational games, and more.
 
