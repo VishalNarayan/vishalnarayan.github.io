@@ -1,6 +1,8 @@
 #+HTML_LINK_HOME: ../..
 #+HTML_LINK_UP: ./
-
+#+title: Chicken Chettinad
+#+author: Vishal Narayan
+#+OPTIONS: title:nil
 
 * Chicken Chettinad
 Following the recipe from this [[https://www.youtube.com/watch?v=zVYa0abkdkE][youtube video]].

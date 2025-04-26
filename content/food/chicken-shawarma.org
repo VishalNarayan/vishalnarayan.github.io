@@ -1,5 +1,8 @@
 #+HTML_LINK_HOME: ../..
-#+HTML_LINK_UP: ./
+#+HTML_LINK_UP: .
+#+title: Chicken Shawarma
+#+author: Vishal Narayan
+#+OPTIONS: title:nil
 
 * Chicken Shawarma
 

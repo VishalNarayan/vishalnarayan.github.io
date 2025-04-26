@@ -1,5 +1,8 @@
 #+HTML_LINK_HOME: ../..
 #+HTML_LINK_UP: ./
+#+title: Rasam
+#+author: Vishal Narayan
+#+OPTIONS: title:nil
 
 * Rasam
 
