@@ -1,0 +1,17 @@
+#+title: Vishal Narayan
+#+author: Vishal Narayan
+#+OPTIONS: title:nil
+
+
+** About Me
+
+Greetings! I'm Vishal Narayan, a software engineer at Amazon Prime Video. I graduated from UCLA in 2022 with a B.S. in Computer Science.
+
+I've created this site as my personal corner of the internet -- a place to share projects, notes, thoughts, recipes, music, and anything else that resists categorization. Thanks for stopping by!
+
+
+*** Links to sub-pages
+Here's all I have to offer [[https://media.npr.org/assets/img/2023/05/26/honest-work-meme-c7034f8bd7b11467e1bfbe14b87a5f6a14a5274b.jpg][right now]].
+
++ [[./chess][♟️A lazily written and unmaintained repertoire of chess openings and concepts]]
++ [[./food][🍔 Some recipes I occasionally follow, none of which are actually mine]]

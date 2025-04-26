@@ -1,8 +1,9 @@
-Welcome to the chess index.
+#+HTML_LINK_HOME: ../
+#+HTML_LINK_UP: ../
 
-Here, I will have links to opening theory, concepts, educational games, and more.
+I honestly haven't played chess in ages and I first wrote this page several years ago. Keep reading
+if you're painfully curious.
 
-For now, putting everything here.
 
 * Opening Lines
 
@@ -258,9 +259,3 @@ Notice that the king is out of squares.
 12. [@12] b4 d3
 13. exd3 (forced) Bxf2+
 14. Ke2 Nxd2 and the game goes on. Both sides have fair chances. 
-
-
-
-
-* Important Games
-

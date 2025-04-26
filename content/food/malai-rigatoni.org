@@ -1,8 +1,7 @@
----
-title: "Malai Rigatoni"
-date: 2023-12-24T23:49:42-08:00
-draft: false
----
+#+HTML_LINK_HOME: ../..
+#+HTML_LINK_UP: ./
+
+* Malai Rigatoni
 
 This is the dish inspired by Pijja Palace.
 
@@ -10,7 +9,7 @@ Got the recipe from [[https://theglobalvegetarian.com/recipes/malai-rigatoni][Th
 
 The recipe on this page is just for the sauce. Cooking the pasta is pretty self-explanatory.
 
-* Ingredients
+** Ingredients
 - 2 tbsp butter
 - 1 tbsp olive oil
 
@@ -39,7 +38,7 @@ The recipe on this page is just for the sauce. Cooking the pasta is pretty self-
 - 3 tbsp chopped coriander
 
 
-* Cook
+** Cook
 1. Pan on low-medium heat. Add butter and oil, allow it to heat up.
 2. Add bay leaves, let sizzle.
 3. Add onions, cook until translucent.

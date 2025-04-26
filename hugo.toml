@@ -1,6 +1,0 @@
-baseURL = 'https://vishalnarayan.github.io/'
-languageCode = 'en-us'
-title = 'Vish'
-theme = 'PaperMod'
-sectionPagesMenu = 'main'
-disableKinds = ['sitemap']

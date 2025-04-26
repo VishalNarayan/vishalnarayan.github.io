@@ -1,11 +1,9 @@
----
-title: "Chicken Shawarma"
-date: 2023-12-24T23:49:14-08:00
-draft: false
----
+#+HTML_LINK_HOME: ../..
+#+HTML_LINK_UP: ./
 
+* Chicken Shawarma
 
-* Marinade
+** Marinade
 
 - 8 garlic cloves
 - 1 shallot
@@ -23,13 +21,13 @@ draft: false
 - add yogurt as desired
 
 
-* Cook
+** Cook
 1. Preheat oven to 400 degrees F.
 2. Cook chicken for roughly 20 minutes, flipping halfway through.
 3. Heat up a skillet, add olive oil, and sear/cook the chicken as desired.
 
 
-* Halal cart style white sauce
+** Halal cart style white sauce
 I think I got this recipe somewhere on reddit probably.
 
 - 1/2 cup plain yogurt

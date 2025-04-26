@@ -1,12 +1,11 @@
----
-title: "Chicken Chettinad"
-date: 2023-12-24T23:39:50-08:00
-draft: false
----
+#+HTML_LINK_HOME: ../..
+#+HTML_LINK_UP: ./
 
+
+* Chicken Chettinad
 Following the recipe from this [[https://www.youtube.com/watch?v=zVYa0abkdkE][youtube video]].
 
-* Marinade
+** Marinade
 - 1/2 tsp turmeric powder
 - 1 tbsp lemon juice
 - few pinches of salt
@@ -15,7 +14,7 @@ Following the recipe from this [[https://www.youtube.com/watch?v=zVYa0abkdkE][yo
 This is for rougly 1lb chicken. Adjust proportions as necessary.
 
 
-* Chettinad Masala
+** Chettinad Masala
 
 - 3 tbsp coriander seeds
 - 6 dried red chillis
@@ -48,7 +47,7 @@ This is for rougly 1lb chicken. Adjust proportions as necessary.
 9. Add water and blend into a paste.
 
 
-* The Cook
+** Cook
 - 2 tbsp sesame oil
 - 15 shallots, or 1 small red onion. Shallots preferred.
 - 3 sprigs curry leaves

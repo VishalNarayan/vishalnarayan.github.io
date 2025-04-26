@@ -1,0 +1,15 @@
+#+HTML_LINK_HOME: ../
+#+HTML_LINK_UP: ../
+
+** Chef Vishal's Food Channel
+
+Welcome. Here are some recipes that I enjoy following.
+
+[[../food/chicken-shawarma.org][Chicken Shawarma]]
+
+[[../food/malai-rigatoni.org][Malai Rigatoni]]
+
+[[../food/chicken-chettinad.org][Chicken Chettinad]]
+
+[[../food/rasam.org][Rasam]]
+
