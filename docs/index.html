@@ -8,27 +8,26 @@
 <title>Vishal Narayan</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+                        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <div id="content" class="content">
 
 
-<div id="outline-container-org2c9883e" class="outline-2">
-<h2 id="org2c9883e">About Me</h2>
-<div class="outline-text-2" id="text-org2c9883e">
+<div id="outline-container-org42144d5" class="outline-3">
+<h3 id="org42144d5">About Me</h3>
+<div class="outline-text-3" id="text-org42144d5">
 <p>
 Greetings! I'm Vishal Narayan, a software engineer at Amazon Prime Video. I graduated from UCLA in 2022 with a B.S. in Computer Science.
 </p>
 
-<p>
-I've created this site as my personal corner of the internet &#x2013; a place to share projects, notes, thoughts, recipes, music, and anything else that resists categorization. Thanks for stopping by!
-</p>
+<p>I've created this site as my personal corner of the internet -- a place to share projects, notes, thoughts, recipes, music, <b><i><a href="javascript:void(0)" id="randomPhrase" class="clickable">and anything else that resists categorization</a></i></b>. Thanks for stopping by! </p>
 </div>
 
 
-<div id="outline-container-org0f4f1f5" class="outline-3">
-<h3 id="org0f4f1f5">Links to sub-pages</h3>
-<div class="outline-text-3" id="text-org0f4f1f5">
+<div id="outline-container-orgaac2f57" class="outline-4">
+<h4 id="orgaac2f57">Links to sub-pages</h4>
+<div class="outline-text-4" id="text-orgaac2f57">
 <p>
 Here's all I have to offer <a href="https://media.npr.org/assets/img/2023/05/26/honest-work-meme-c7034f8bd7b11467e1bfbe14b87a5f6a14a5274b.jpg">right now</a>.
 </p>
@@ -38,6 +37,52 @@ Here's all I have to offer <a href="https://media.npr.org/assets/img/2023/05/26/
 <li><a href="./food">🍔 Some recipes I occasionally follow, none of which are actually mine</a></li>
 </ul>
 </div>
+</div>
+</div>
+
+
+
+<div id="outline-container-org88945e3" class="outline-2">
+<h2 id="org88945e3">Welcome to My Personal Corner</h2>
+<div class="outline-text-2" id="text-org88945e3">
+<p>
+I've created this site as my personal corner of the internet – a place to share projects, notes, thoughts, recipes, music, and
+anything else that resists categorization.
+</p>
+
+
+
+<script>
+  const phrases = [
+  "and anything else my heart desires",
+  "and anything else I felt like oversharing",
+  "and anything else that sparks joy",
+  "and anything else that can't be contained",
+  "and anything else that might surprise you",
+  "and anything else I should probably keep to myself",
+  "and anything else I thought was cool at 2am",
+  "and anything else not meant for LinkedIn",
+  "and anything else I’m irrationally excited about",
+  "and anything else that makes no sense but brings me joy",
+  "and anything else I overthought and posted anyway",
+  "and anything else that feels like a good idea (right now)",
+  "and anything else I accidentally turned into a project",
+  "and anything else I felt like sharing with the void",
+  "and anything else I typed before second-guessing it",
+
+  ];
+
+  const phraseEl = document.getElementById('randomPhrase');
+
+  phraseEl.addEventListener('click', function () {
+  let newPhrase;
+  do {
+  newPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+  } while (newPhrase === this.innerText);
+  this.innerText = newPhrase;
+  });
+
+  </script>
 </div>
 </div>
 </div>

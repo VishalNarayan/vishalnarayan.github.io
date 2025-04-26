@@ -7,7 +7,7 @@
 
 Greetings! I'm Vishal Narayan, a software engineer at Amazon Prime Video. I graduated from UCLA in 2022 with a B.S. in Computer Science.
 
-I've created this site as my personal corner of the internet -- a place to share projects, notes, thoughts, recipes, music, and anything else that resists categorization. Thanks for stopping by!
+#+HTML: <p>I've created this site as my personal corner of the internet -- a place to share projects, notes, thoughts, recipes, music, <b><i><a href="javascript:void(0)" id="randomPhrase" class="clickable">and anything else that resists categorization</a></i></b>. Thanks for stopping by! </p>
 
 
 *** Links to sub-pages
@@ -15,3 +15,46 @@ Here's all I have to offer [[https://media.npr.org/assets/img/2023/05/26/honest-
 
 + [[./chess][♟️A lazily written and unmaintained repertoire of chess openings and concepts]]
 + [[./food][🍔 Some recipes I occasionally follow, none of which are actually mine]]
+
+
+
+* Welcome to My Personal Corner
+
+I've created this site as my personal corner of the internet – a place to share projects, notes, thoughts, recipes, music, and
+anything else that resists categorization.
+
+
+
+#+BEGIN_EXPORT html
+<script>
+  const phrases = [
+  "and anything else my heart desires",
+  "and anything else I felt like oversharing",
+  "and anything else that sparks joy",
+  "and anything else that can't be contained",
+  "and anything else that might surprise you",
+  "and anything else I should probably keep to myself",
+  "and anything else I thought was cool at 2am",
+  "and anything else not meant for LinkedIn",
+  "and anything else I’m irrationally excited about",
+  "and anything else that makes no sense but brings me joy",
+  "and anything else I overthought and posted anyway",
+  "and anything else that feels like a good idea (right now)",
+  "and anything else I accidentally turned into a project",
+  "and anything else I felt like sharing with the void",
+  "and anything else I typed before second-guessing it",
+
+  ];
+
+  const phraseEl = document.getElementById('randomPhrase');
+
+  phraseEl.addEventListener('click', function () {
+  let newPhrase;
+  do {
+  newPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+  } while (newPhrase === this.innerText);
+  this.innerText = newPhrase;
+  });
+
+  </script>
+#+END_EXPORT

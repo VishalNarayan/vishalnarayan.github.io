@@ -32,7 +32,14 @@
 	     :with-toc nil ;; Include a table of contents
 	     :section-numbers nil ;; Don't include section numbers
 	     :time-stamp-file nil ;; Don't include time stamp in file
-	     :exclude "*~")))
+	     :exclude "*~"
+	     :html-head-include-default-style nil ;; Don't use the default style
+             :html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />
+                        <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>" ;; Include jQuery and custom script tag
+             :html-preamble nil ;; Remove the preamble (header)
+             :html-postamble nil ;; Remove the postamble (footer)
+             :with-javascript t ;; Enable JavaScript in Org HTML export
+             :with-attributes '("src" "href" "id" "class" "style" "type"))))
 
 ;; Get rid of validate link at bottom
 (setq org-html-validation-link nil
