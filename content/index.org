@@ -17,14 +17,6 @@ Here's all I have to offer [[https://media.npr.org/assets/img/2023/05/26/honest-
 + [[./food][🍔 Some recipes I occasionally follow, none of which are actually mine]]
 
 
-
-* Welcome to My Personal Corner
-
-I've created this site as my personal corner of the internet – a place to share projects, notes, thoughts, recipes, music, and
-anything else that resists categorization.
-
-
-
 #+BEGIN_EXPORT html
 <script>
   const phrases = [
