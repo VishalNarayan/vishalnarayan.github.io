@@ -38,12 +38,17 @@
 
   <div id="status" style="margin-top: 1rem; font-size: 1rem;"></div>
 
+  <div id="pending" style="margin-top: 1rem; width: 90vw; max-width: 400px;">
+    <h3>Pending Changes</h3>
+    <ul id="pending-list" style="list-style: none; padding-left: 0;"></ul>
+  </div>  
+
   <script>
     const STORAGE_KEY = 'pending-requests';
   
-    function saveRequestLocally(url) {
+    function saveRequestLocally(url, id) {
       const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-      stored.push(url);
+      stored.push({ url, id });
       localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
     }
   
@@ -66,9 +71,14 @@
 
       const remaining = [];
   
-      for (const url of stored) {
+      for (const entry of stored) {
+        const { url, id } = entry;
         const success = await tryToSend(url);
-        if (!success) remaining.push(url);
+        if (success) {
+          removePendingItem(id);
+        } else {
+          remaining.push(entry);
+        }
       }
   
       if (remaining.length > 0) {
@@ -90,7 +100,23 @@
     }, 30000); // Check every 30 seconds
   
     window.addEventListener('online', flushPendingRequests);
+    function loadPendingItemsFromStorage() {
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+      for (const entry of stored) {
+        const { url, id } = entry;
+
+        // Extract values from URL for display
+        const params = new URLSearchParams(url.split('?')[1]);
+        const description = params.get('description');
+        const amount = params.get('amount');
+        const card = params.get('card');
+
+        addPendingItem(description, amount, card, id);
+    }
+}
+
     window.addEventListener('load', () => {
+      loadPendingItemsFromStorage();
       if (!navigator.onLine) {
         const statusDiv = document.getElementById('status');
         statusDiv.textContent = "⚠️ You are offline. Data will be saved locally.";
@@ -99,7 +125,21 @@
         flushPendingRequests();
       }
     });
-  
+
+    function addPendingItem(description, amount, card, id) {
+      const list = document.getElementById('pending-list');
+      const li = document.createElement('li');
+      li.textContent = `${description} - $${amount} (${card})`;
+      li.setAttribute('data-id', id);
+      li.style.padding = "0.25rem 0";
+      list.appendChild(li);
+    }
+
+    function removePendingItem(id) {
+      const item = document.querySelector(`#pending-list li[data-id="${id}"]`);
+      if (item) item.remove();
+    }
+
     async function submitForm(e) {
       e.preventDefault();
   
@@ -114,6 +154,9 @@
       }
   
       const url = `https://n5asogtyiihpytsjbvfs7kdge40jaued.lambda-url.us-east-1.on.aws/?description=${encodeURIComponent(description)}&amount=${encodeURIComponent(amount)}&card=${encodeURIComponent(card)}`;
+
+      const id = Date.now().toString();
+      addPendingItem(description, amount, card, id);
 
       // Show submitting message
       statusDiv.textContent = "Submitting...";
@@ -130,13 +173,14 @@
         if (response.ok) {
           statusDiv.textContent = "✅ Submitted successfully!";
           statusDiv.style.color = "green";
+          removePendingItem(id);
         } else {
           throw new Error('Server error');
         }
       } catch (error) {
         statusDiv.textContent = "⚠️ Offline or failed. Saved locally.";
         statusDiv.style.color = "orange";
-        saveRequestLocally(url);
+        saveRequestLocally(url, id);
       }
   
       document.getElementById('description').value = '';
