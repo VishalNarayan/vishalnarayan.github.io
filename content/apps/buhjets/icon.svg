@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#2196F3"/>
+  
+  <!-- Dollar sign -->
+  <path d="M256 128v256M208 192h96M208 320h96" 
+        stroke="white" 
+        stroke-width="32" 
+        stroke-linecap="round"/>
+  
+  <!-- Circle around dollar sign -->
+  <circle cx="256" cy="256" r="160" 
+          stroke="white" 
+          stroke-width="16" 
+          fill="none"/>
+</svg> 
