@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bet Tracker</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 90vw;
+      max-width: 400px;
+    }
+    input, button {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <form onsubmit="submitForm(event)">
+    <input id="selection" type="text" placeholder="Selection" required />
+    <input id="odds" type="number" placeholder="Odds" inputmode="decimal" required />
+    <input id="stake" type="number" placeholder="Stake" inputmode="decimal" required />
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="status" style="margin-top: 1rem; font-size: 1rem;"></div>
+
+  <div id="pending" style="margin-top: 1rem; width: 90vw; max-width: 400px;">
+    <h3>Pending Changes</h3>
+    <ul id="pending-list" style="list-style: none; padding-left: 0;"></ul>
+  </div>  
+
+  <script>
+    const STORAGE_KEY = 'pending-requests';
+    const FUNCTION_URL = "https://4pdrhayhcrwdmuwpeqcm26l56a0hwlmm.lambda-url.us-east-1.on.aws/"
+    let isSyncing = false;  // Add sync lock
+  
+    function saveRequestLocally(selection, odds, stake, id) {
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+      stored.push({ selection, odds, stake, id });
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+    }
+  
+    async function tryToSend(url) {
+      try {
+        const response = await fetch(url);
+        return response.ok;
+      } catch {
+        return false;
+      }
+    }
+  
+    async function flushPendingRequests() {
+      if (isSyncing) return;  // Prevent concurrent syncs
+      isSyncing = true;
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+      if (stored.length === 0) {
+        isSyncing = false;
+        return;
+      }
+
+      const statusDiv = document.getElementById('status');
+      statusDiv.textContent = "🔄 Syncing offline data...";
+      statusDiv.style.color = "blue";
+
+      const remaining = [];
+
+      let try_url = FUNCTION_URL + '?';
+
+      for (const entry of stored) {
+        const { selection, odds, stake, id } = entry;
+        try_url += `selection=${encodeURIComponent(selection)}&odds=${encodeURIComponent(odds)}&stake=${encodeURIComponent(stake)}&`;
+      }
+      const final_try_url = try_url.slice(0, -1); // Remove the '&' at the end
+
+      const success = await tryToSend(final_try_url);
+      if (success) {
+        removeAllPendingItems();
+        localStorage.removeItem(STORAGE_KEY);
+        statusDiv.textContent = "✅ All offline data synced!";
+        statusDiv.style.color = "green";
+      } else {
+        statusDiv.textContent = `⚠️ ${stored.length} requests still pending`;
+        statusDiv.style.color = "orange";
+      }
+
+      isSyncing = false; // Release sync lock
+    }
+
+    // Check online status periodically
+    setInterval(() => {
+      if (navigator.onLine) {
+        flushPendingRequests();
+      }
+    }, 30000); // Check every 30 seconds
+  
+    window.addEventListener('online', flushPendingRequests);
+    function loadPendingItemsFromStorage() {
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+      for (const entry of stored) {
+        const { selection, odds, stake, id } = entry;
+
+        addPendingItem(selection, odds, stake, id);
+    }
+}
+
+    window.addEventListener('load', () => {
+      loadPendingItemsFromStorage();
+      if (!navigator.onLine) {
+        const statusDiv = document.getElementById('status');
+        statusDiv.textContent = "⚠️ You are offline. Data will be saved locally.";
+        statusDiv.style.color = "orange";
+      } else {
+        flushPendingRequests();
+      }
+    });
+
+    function addPendingItem(selection, odds, stake, id) {
+      const list = document.getElementById('pending-list');
+      const li = document.createElement('li');
+      li.textContent = `${selection} - ${odds} - $${stake}`;
+      li.setAttribute('data-id', id);
+      li.style.padding = "0.25rem 0";
+      list.appendChild(li);
+    }
+
+    function removePendingItem(id) {
+      const item = document.querySelector(`#pending-list li[data-id="${id}"]`);
+      if (item) item.remove();
+    }
+    
+    function removeAllPendingItems() {
+      const pendingList = document.querySelector(`#pending-list`);
+      while (pendingList.firstChild) {
+        pendingList.removeChild(pendingList.firstChild);
+      }
+    }
+
+    async function submitForm(e) {
+      e.preventDefault();
+  
+      const selection = document.getElementById('selection').value.trim();
+      const odds = document.getElementById('odds').value.trim();
+      const stake = document.getElementById('stake').value.trim();
+      const statusDiv = document.getElementById('status');
+  
+      if (!selection || !odds || !stake) {
+        alert("Please fill in all fields.");
+        return;
+      }
+  
+      const url = `${FUNCTION_URL}?selection=${encodeURIComponent(selection)}&odds=${encodeURIComponent(odds)}&stake=${encodeURIComponent(stake)}`;
+
+      const id = Date.now().toString();
+      addPendingItem(selection, odds, stake, id);
+
+      // Show submitting message
+      statusDiv.textContent = "Submitting...";
+      statusDiv.style.color = "black";
+      statusDiv.style.fontWeight = "bold";
+      statusDiv.style.textAlign = "center";
+      statusDiv.style.margin = "1rem 0";
+      statusDiv.style.padding = "0.5rem";
+      statusDiv.style.borderRadius = "0.5rem";
+      statusDiv.style.backgroundColor = "lightgray";
+
+      // Clear fields
+      document.getElementById('selection').value = '';
+      document.getElementById('odds').value = '';
+      document.getElementById('stake').value = '';
+      document.getElementById('selection').focus();
+  
+      try {
+        const response = await fetch(url);
+        if (response.ok) {
+          statusDiv.textContent = "✅ Submitted successfully!";
+          statusDiv.style.color = "green";
+          removePendingItem(id);
+        } else {
+          throw new Error('Server error');
+        }
+      } catch (error) {
+        statusDiv.textContent = "⚠️ Offline or failed. Saved locally.";
+        statusDiv.style.color = "orange";
+        saveRequestLocally(selection, odds, stake, id);
+      }
+    }
+  
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log("SW registered"))
+        .catch((err) => console.error("SW registration failed", err));
+    }
+  </script>  
+</body>
+</html>
