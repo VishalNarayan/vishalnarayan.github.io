@@ -131,7 +131,7 @@
     function addPendingItem(selection, odds, stake, id) {
       const list = document.getElementById('pending-list');
       const li = document.createElement('li');
-      li.textContent = `${selection} - ${odds} - $${stake}`;
+      li.textContent = `${selection} , ${odds} , $${stake}`;
       li.setAttribute('data-id', id);
       li.style.padding = "0.25rem 0";
       list.appendChild(li);
