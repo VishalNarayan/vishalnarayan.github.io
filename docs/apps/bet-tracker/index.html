@@ -47,6 +47,25 @@
     const STORAGE_KEY = 'pending-requests';
     const FUNCTION_URL = "https://4pdrhayhcrwdmuwpeqcm26l56a0hwlmm.lambda-url.us-east-1.on.aws/"
     let isSyncing = false;  // Add sync lock
+
+
+    // Keyboard editing functionality for "Return" key
+    const selection = document.getElementById('selection');
+    const odds = document.getElementById('odds');
+    const stake = document.getElementById('stake');
+
+    selection.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault(); 
+        odds.focus();       
+      }
+    });
+    odds.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault(); 
+        stake.focus();       
+      }
+    });
   
     function saveRequestLocally(selection, odds, stake, id) {
       const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
