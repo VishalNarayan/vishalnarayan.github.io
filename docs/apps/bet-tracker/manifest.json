@@ -1,7 +1,7 @@
 {
   "name": "Bet Tracker",
   "short_name": "Bets",
-  "start_url": "/",
+  "start_url": "/apps/bet-tracker/",
   "display": "standalone",
   "background_color": "#ffffff",
   "description": "Track your bets with offline support",
