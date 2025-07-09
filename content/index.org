@@ -15,6 +15,7 @@ Here's all I have to offer [[https://media.npr.org/assets/img/2023/05/26/honest-
 
 + [[./chess][♟️A lazily written and unmaintained repertoire of chess openings and concepts]]
 + [[./food][🍔 Some recipes I occasionally follow, none of which are actually mine]]
++ [[./trivia][💡A brief review of my experiences attending trivia night at various bars in NYC]]
 
 
 #+BEGIN_EXPORT html
