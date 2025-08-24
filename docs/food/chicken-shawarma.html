@@ -17,13 +17,13 @@
  <a accesskey="H" href="../.."> HOME </a>
 </div><div id="content" class="content">
 
-<div id="outline-container-org23eb5e0" class="outline-2">
-<h2 id="org23eb5e0">Chicken Shawarma</h2>
-<div class="outline-text-2" id="text-org23eb5e0">
+<div id="outline-container-org92d4052" class="outline-2">
+<h2 id="org92d4052">Chicken Shawarma</h2>
+<div class="outline-text-2" id="text-org92d4052">
 </div>
-<div id="outline-container-org00ab38c" class="outline-3">
-<h3 id="org00ab38c">Marinade</h3>
-<div class="outline-text-3" id="text-org00ab38c">
+<div id="outline-container-orgc03b2d0" class="outline-3">
+<h3 id="orgc03b2d0">Marinade</h3>
+<div class="outline-text-3" id="text-orgc03b2d0">
 <ul class="org-ul">
 <li>8 garlic cloves</li>
 <li>1 shallot</li>
@@ -44,9 +44,9 @@
 </div>
 
 
-<div id="outline-container-org04f966f" class="outline-3">
-<h3 id="org04f966f">Cook</h3>
-<div class="outline-text-3" id="text-org04f966f">
+<div id="outline-container-org70a494c" class="outline-3">
+<h3 id="org70a494c">Cook</h3>
+<div class="outline-text-3" id="text-org70a494c">
 <ol class="org-ol">
 <li>Preheat oven to 400 degrees F.</li>
 <li>Cook chicken for roughly 20 minutes, flipping halfway through.</li>
@@ -56,9 +56,9 @@
 </div>
 
 
-<div id="outline-container-org907a390" class="outline-3">
-<h3 id="org907a390">Halal cart style white sauce</h3>
-<div class="outline-text-3" id="text-org907a390">
+<div id="outline-container-org90b5a3d" class="outline-3">
+<h3 id="org90b5a3d">Halal cart style white sauce</h3>
+<div class="outline-text-3" id="text-org90b5a3d">
 <p>
 I think I got this recipe somewhere on reddit probably.
 </p>
@@ -83,5 +83,26 @@ Hand-whisk until you get tired, and then transfer it into a squeeze bottle.
 </div>
 </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  if(!('IntersectionObserver'in window))return;
+  const io=new IntersectionObserver((ents)=>{
+    ents.forEach(e=>{
+      if(e.isIntersecting){
+        const v=e.target;
+        const s=v.querySelector('source[data-src]');
+        if(s && !s.dataset.loaded){
+          s.src=s.dataset.src;
+          s.dataset.loaded='1';
+          s.removeAttribute('data-src');
+          v.load();
+        }
+        io.unobserve(v);
+      }
+    });
+  },{rootMargin:'200px'});
+  document.querySelectorAll('video').forEach(v=>io.observe(v));
+});
+</script>
 </body>
 </html>

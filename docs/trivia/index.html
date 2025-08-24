@@ -17,13 +17,13 @@
  <a accesskey="H" href="../"> HOME </a>
 </div><div id="content" class="content">
 
-<div id="outline-container-orgc0fb27c" class="outline-2">
-<h2 id="orgc0fb27c">My NYC Trivia Adventures</h2>
-<div class="outline-text-2" id="text-orgc0fb27c">
+<div id="outline-container-org829cfbf" class="outline-2">
+<h2 id="org829cfbf">My NYC Trivia Adventures</h2>
+<div class="outline-text-2" id="text-org829cfbf">
 </div>
-<div id="outline-container-orgf3427dc" class="outline-3">
-<h3 id="orgf3427dc">Thursday July 24 &#x2013; Sound + Fury Brewery and Kitchen</h3>
-<div class="outline-text-3" id="text-orgf3427dc">
+<div id="outline-container-org40f8b4e" class="outline-3">
+<h3 id="org40f8b4e">Thursday July 24 &#x2013; Sound + Fury Brewery and Kitchen</h3>
+<div class="outline-text-3" id="text-org40f8b4e">
 <p>
 <b>Attendees: myself, Kia, Austin</b>
 </p>
@@ -73,9 +73,9 @@ directions on how to get somewhere</li>
 
 
 
-<div id="outline-container-org290a085" class="outline-3">
-<h3 id="org290a085">Wednesday July 16 &#x2013; The Westbury</h3>
-<div class="outline-text-3" id="text-org290a085">
+<div id="outline-container-orge506d2f" class="outline-3">
+<h3 id="orge506d2f">Wednesday July 16 &#x2013; The Westbury</h3>
+<div class="outline-text-3" id="text-orge506d2f">
 <p>
 <b>Attendees: myself, Jayson, Dylan, Neal, Zahra</b>
 </p>
@@ -136,9 +136,9 @@ ourselves (not convinced enough to actually do it though).
 
 
 
-<div id="outline-container-orgd166941" class="outline-3">
-<h3 id="orgd166941">Tuesday July 8 &#x2013; Reilly's Plates and Pours</h3>
-<div class="outline-text-3" id="text-orgd166941">
+<div id="outline-container-org50c391b" class="outline-3">
+<h3 id="org50c391b">Tuesday July 8 &#x2013; Reilly's Plates and Pours</h3>
+<div class="outline-text-3" id="text-org50c391b">
 <p>
 <b>Attendees: myself, Ayushi, Sid, Kushal</b>
 </p>
@@ -211,9 +211,9 @@ spot to enjoy a happy hour. And I would come back for the trivia.
 
 
 
-<div id="outline-container-org2a4d98e" class="outline-3">
-<h3 id="org2a4d98e">Wednesday June 25 &#x2013; Amity Hall Downtown</h3>
-<div class="outline-text-3" id="text-org2a4d98e">
+<div id="outline-container-orga5d0a42" class="outline-3">
+<h3 id="orga5d0a42">Wednesday June 25 &#x2013; Amity Hall Downtown</h3>
+<div class="outline-text-3" id="text-orga5d0a42">
 <p>
 <b>Attendees: myself, Dylan, Kavya</b>
 </p>
@@ -267,5 +267,26 @@ colder one which I'd rate a 6 out of 10 on taste.
 </div>
 </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  if(!('IntersectionObserver'in window))return;
+  const io=new IntersectionObserver((ents)=>{
+    ents.forEach(e=>{
+      if(e.isIntersecting){
+        const v=e.target;
+        const s=v.querySelector('source[data-src]');
+        if(s && !s.dataset.loaded){
+          s.src=s.dataset.src;
+          s.dataset.loaded='1';
+          s.removeAttribute('data-src');
+          v.load();
+        }
+        io.unobserve(v);
+      }
+    });
+  },{rootMargin:'200px'});
+  document.querySelectorAll('video').forEach(v=>io.observe(v));
+});
+</script>
 </body>
 </html>

@@ -22,17 +22,17 @@ if you're painfully curious.
 </p>
 
 
-<div id="outline-container-orgf7fed05" class="outline-2">
-<h2 id="orgf7fed05">Opening Lines</h2>
-<div class="outline-text-2" id="text-orgf7fed05">
+<div id="outline-container-orgeae3160" class="outline-2">
+<h2 id="orgeae3160">Opening Lines</h2>
+<div class="outline-text-2" id="text-orgeae3160">
 </div>
-<div id="outline-container-orgddb7060" class="outline-3">
-<h3 id="orgddb7060">1. e4 e5</h3>
-<div class="outline-text-3" id="text-orgddb7060">
+<div id="outline-container-org88ebb24" class="outline-3">
+<h3 id="org88ebb24">1. e4 e5</h3>
+<div class="outline-text-3" id="text-org88ebb24">
 </div>
-<div id="outline-container-org514bda2" class="outline-4">
-<h4 id="org514bda2">Scotch</h4>
-<div class="outline-text-4" id="text-org514bda2">
+<div id="outline-container-org9d9ca3a" class="outline-4">
+<h4 id="org9d9ca3a">Scotch</h4>
+<div class="outline-text-4" id="text-org9d9ca3a">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -91,9 +91,9 @@ if you're painfully curious.
 </div>
 
 
-<div id="outline-container-org74309da" class="outline-4">
-<h4 id="org74309da">Four Knights Scotch</h4>
-<div class="outline-text-4" id="text-org74309da">
+<div id="outline-container-orgadac62b" class="outline-4">
+<h4 id="orgadac62b">Four Knights Scotch</h4>
+<div class="outline-text-4" id="text-orgadac62b">
 <p>
 Line 1:
 </p>
@@ -194,8 +194,8 @@ If no squares are appealing, can even fianchetto the bishop.
 
 
 <ul class="org-ul">
-<li><a id="org403dd5f"></a>Line 2:<br />
-<div class="outline-text-5" id="text-org403dd5f">
+<li><a id="orge29e037"></a>Line 2:<br />
+<div class="outline-text-5" id="text-orge29e037">
 <ol class="org-ol">
 <li>e4 e5</li>
 <li>Nf3 Nc6</li>
@@ -241,16 +241,16 @@ Here, Bd3 Nf4 is annoying, so Qd2 instead.
 
 
 
-<div id="outline-container-org8f3e376" class="outline-3">
-<h3 id="org8f3e376">1. e4 c5</h3>
+<div id="outline-container-org96b7eba" class="outline-3">
+<h3 id="org96b7eba">1. e4 c5</h3>
 </div>
 
 
 
 
-<div id="outline-container-org3251594" class="outline-3">
-<h3 id="org3251594">1. d4</h3>
-<div class="outline-text-3" id="text-org3251594">
+<div id="outline-container-orgf4f37ed" class="outline-3">
+<h3 id="orgf4f37ed">1. d4</h3>
+<div class="outline-text-3" id="text-orgf4f37ed">
 <p>
 ♔
 ♞
@@ -270,9 +270,9 @@ After 1. d4 d5 2. c4, there are a number of lines. Here are a few:
 </ul>
 </div>
 
-<div id="outline-container-orga32adb7" class="outline-4">
-<h4 id="orga32adb7">Queen's Gambit Declined</h4>
-<div class="outline-text-4" id="text-orga32adb7">
+<div id="outline-container-org88372b0" class="outline-4">
+<h4 id="org88372b0">Queen's Gambit Declined</h4>
+<div class="outline-text-4" id="text-org88372b0">
 <p>
 From wikipedia: White will try to exploit the passivity of Black's light-squared bishop, and Black
 will try to release it, trade it, or prove that, while passive, the bishop has a useful defensive
@@ -553,5 +553,26 @@ Notice that the king is out of squares.
 </div>
 </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  if(!('IntersectionObserver'in window))return;
+  const io=new IntersectionObserver((ents)=>{
+    ents.forEach(e=>{
+      if(e.isIntersecting){
+        const v=e.target;
+        const s=v.querySelector('source[data-src]');
+        if(s && !s.dataset.loaded){
+          s.src=s.dataset.src;
+          s.dataset.loaded='1';
+          s.removeAttribute('data-src');
+          v.load();
+        }
+        io.unobserve(v);
+      }
+    });
+  },{rootMargin:'200px'});
+  document.querySelectorAll('video').forEach(v=>io.observe(v));
+});
+</script>
 </body>
 </html>

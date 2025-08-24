@@ -17,9 +17,9 @@
  <a accesskey="H" href="../.."> HOME </a>
 </div><div id="content" class="content">
 
-<div id="outline-container-orgac4567f" class="outline-2">
-<h2 id="orgac4567f">Malai Rigatoni</h2>
-<div class="outline-text-2" id="text-orgac4567f">
+<div id="outline-container-org01b6245" class="outline-2">
+<h2 id="org01b6245">Malai Rigatoni</h2>
+<div class="outline-text-2" id="text-org01b6245">
 <p>
 This is the dish inspired by Pijja Palace.
 </p>
@@ -33,9 +33,9 @@ The recipe on this page is just for the sauce. Cooking the pasta is pretty self-
 </p>
 </div>
 
-<div id="outline-container-orgd4f605f" class="outline-3">
-<h3 id="orgd4f605f">Ingredients</h3>
-<div class="outline-text-3" id="text-orgd4f605f">
+<div id="outline-container-org006a7ed" class="outline-3">
+<h3 id="org006a7ed">Ingredients</h3>
+<div class="outline-text-3" id="text-org006a7ed">
 <ul class="org-ul">
 <li>2 tbsp butter</li>
 <li>1 tbsp olive oil</li>
@@ -68,9 +68,9 @@ The recipe on this page is just for the sauce. Cooking the pasta is pretty self-
 </div>
 
 
-<div id="outline-container-org738ef87" class="outline-3">
-<h3 id="org738ef87">Cook</h3>
-<div class="outline-text-3" id="text-org738ef87">
+<div id="outline-container-org2b43832" class="outline-3">
+<h3 id="org2b43832">Cook</h3>
+<div class="outline-text-3" id="text-org2b43832">
 <ol class="org-ol">
 <li>Pan on low-medium heat. Add butter and oil, allow it to heat up.</li>
 <li>Add bay leaves, let sizzle.</li>
@@ -88,5 +88,26 @@ The recipe on this page is just for the sauce. Cooking the pasta is pretty self-
 </div>
 </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  if(!('IntersectionObserver'in window))return;
+  const io=new IntersectionObserver((ents)=>{
+    ents.forEach(e=>{
+      if(e.isIntersecting){
+        const v=e.target;
+        const s=v.querySelector('source[data-src]');
+        if(s && !s.dataset.loaded){
+          s.src=s.dataset.src;
+          s.dataset.loaded='1';
+          s.removeAttribute('data-src');
+          v.load();
+        }
+        io.unobserve(v);
+      }
+    });
+  },{rootMargin:'200px'});
+  document.querySelectorAll('video').forEach(v=>io.observe(v));
+});
+</script>
 </body>
 </html>
