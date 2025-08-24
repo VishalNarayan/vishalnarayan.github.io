@@ -214,7 +214,7 @@ vibes were great.
 
 #+BEGIN_EXPORT html
   <video width="300" controls>
-    <source src="pics/aus/med-lunch.MP4" type="video/mp4">
+    <source src="pics/aus/med-lunch.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -871,7 +871,7 @@ We woke up at a reasonable time, had breakfast, then headed out to [[https://sha
 #+BEGIN_EXPORT html
 <div style="display:flex; justify-content:center; gap:20px;">
   <video width="300" controls>
-    <source src="pics/thai/krabi/tiger/bike-ride-there.MP4" type="video/mp4">
+    <source src="pics/thai/krabi/tiger/bike-ride-there.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video width="300" controls>
@@ -981,7 +981,7 @@ and accepted an offer for a foot massage and mini pedicure.
 #+BEGIN_EXPORT html
 <div style="display:flex; justify-content:center; gap:20px;">
   <video width="300" controls>
-    <source src="pics/thai/krabi/railay-boat.MP4" type="video/mp4">
+    <source src="pics/thai/krabi/railay-boat.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -1018,7 +1018,7 @@ atmospheric.
 #+BEGIN_EXPORT html
 <div style="display:flex; justify-content:center; gap:20px;">
   <video width="400" controls>
-    <source src="pics/thai/krabi/kayak/kayak.MP4" type="video/mp4">
+    <source src="pics/thai/krabi/kayak/kayak.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -1216,7 +1216,7 @@ I met the boys later at a [[https://share.google/CQFd3NkQ7PWFDdbRg][rooftop bar]
 [[file:pics/thai/cm/fightnight/hideland.webp]]
 #+BEGIN_EXPORT html
   <video width="250" controls>
-    <source src="pics/thai/cm/fightnight/hideland.MP4" type="video/mp4">
+    <source src="pics/thai/cm/fightnight/hideland.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -1230,11 +1230,11 @@ I met the boys later at a [[https://share.google/CQFd3NkQ7PWFDdbRg][rooftop bar]
 #+BEGIN_EXPORT html
 <div style="display:flex; justify-content:center; gap:20px;">
   <video width="300" controls>
-    <source src="pics/thai/cm/fightnight/kicks.MP4" type="video/mp4">
+    <source src="pics/thai/cm/fightnight/kicks.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video width="300" controls>
-    <source src="pics/thai/cm/fightnight/red-down.MP4" type="video/mp4">
+    <source src="pics/thai/cm/fightnight/red-down.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -1286,7 +1286,7 @@ We biked to a [[https://share.google/W078iQ7dj74AQ6cXj][café]] for lunch, where
 #+BEGIN_EXPORT html
 <div style="display:flex; justify-content:center; gap:20px;">
   <video width="300" controls>
-    <source src="pics/thai/cm/gord.MP4" type="video/mp4">
+    <source src="pics/thai/cm/gord.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
