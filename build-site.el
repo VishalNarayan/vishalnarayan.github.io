@@ -39,7 +39,15 @@
              :html-preamble nil ;; Remove the preamble (header)
              :html-postamble nil ;; Remove the postamble (footer)
              :with-javascript t ;; Enable JavaScript in Org HTML export
-             :with-attributes '("src" "href" "id" "class" "style" "type"))))
+             :with-attributes '("src" "href" "id" "class" "style" "type"))
+
+       (list "website-assets"
+	     :recursive t
+	     :base-directory "./content"
+	     :base-extension "png\\|jpg\\|jpeg\\|gif\\|svg\\|webp\\|ico\\|bmp\\|mp4"
+	     :publishing-directory "./docs"
+	     :publishing-function 'org-publish-attachment)
+       ))
 
 ;; Get rid of validate link at bottom
 (setq org-html-validation-link nil
