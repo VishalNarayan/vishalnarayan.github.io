@@ -544,9 +544,9 @@ espresso martini was amazing, the rum cocktail less so, but the food was excelle
 /Dinner at SameSame/ 
     
 After dinner, we went to the casino. Several of us put $100 on black, and it hit 🤑, which paid for
-part of dinner (RIP Sai 🪦). We played a little blackjack and left while we were ahead.
+part of dinner (RIP Akhil 🪦). We played a little blackjack and left while we were ahead.
     
-Back at Neil’s, Sai introduced us to a card game called Literature, which turned out to be a lot of
+Back at Neil’s, Akhil introduced us to a card game called Literature, which turned out to be a lot of
 fun. After an hour of that, we returned to the Airbnb and crashed.
 
 #+ATTR_HTML: :width 400px :style display:block; margin:0 auto; text-align:center;
@@ -557,7 +557,7 @@ fun. After an hour of that, we returned to the Airbnb and crashed.
 *** ✈️ Wednesday, August 6 Morning — Leaving Brisbane
 
 In the morning, we had breakfast at [[https://share.google/Tbn59jNDfjHQFF5LI][Bare Beanz]] café. I had pancakes, a potato-cheese waffle, and a
-vanilla latte before Varun, G, Sai, and I headed to the airport.
+vanilla latte before Varun, G, Akhil, and I headed to the airport.
 
 #+BEGIN_EXPORT html
 <div style="display:flex; justify-content:center; gap:20px;">
@@ -858,7 +858,7 @@ ordered far too much. The mango lassi stood out as especially good.
 #+ATTR_HTML: :width 400px :style display:block; margin:0 auto; text-align:center;
 [[file:pics/thai/krabi/neil-rec.webp]]
 #+ATTR_HTML: :style text-align:center;
-/Sai demolishing his plate/
+/Akhil demolishing his plate/
     
 After dinner, we played cards at the villa and went to bed.
 
